@@ -1,0 +1,12 @@
+.home-main-container {
+    background: url("../images/14718839_404297099958215_2122501957124212158_n.jpg") no-repeat center 96% fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+.home-main-container .heading-text {
+    text-shadow: 0 3px 2px rgba(0, 0, 0, 0.6);
+    color: white;
+}
