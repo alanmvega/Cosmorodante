@@ -1,12 +1,75 @@
-.home-main-container {
-    background: url("../images/14718839_404297099958215_2122501957124212158_n.jpg") no-repeat center 96% fixed;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
+body {
+    font: 20px Montserrat, sans-serif;
+    line-height: 1.8;
+    color: #f5f6f7;
 }
 
-.home-main-container .heading-text {
-    text-shadow: 0 3px 2px rgba(0, 0, 0, 0.6);
+.-inline {
+    display:inline
+}
+
+.header-nav {
+    padding-top: 15px;
+    padding-bottom: 15px;
+    border: 0;
+    border-radius: 0;
+    margin-bottom: 0;
+    font-size: 12px;
+    letter-spacing: 5px;
+}
+
+.navbar-nav  li a:hover {
+    color: #1abc9c !important;
+}
+
+.home-heading {
+    background-color: #1abc9c;
     color: white;
+    padding-top: 50px;
+    padding-bottom: 70px;
+}
+
+.-dark {
+    background-color: #474e5d;
+    color: white;
+}
+
+.-gray {
+    background-color: #2f2f2f;
+    color: white;
+}
+
+.-spacing-top-bottom {
+    padding-top: 70px;
+    padding-bottom: 70px;
+}
+
+.-small-spacing-top-bottom {
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
+.-medium-spacing-right {
+    padding-right: 50px;
+}
+
+.margin {
+    margin-bottom: 25px;
+}
+
+.-medium-font-size {
+    font-size: 16px;
+}
+
+.-max-width {
+    width: 100%;
+}
+
+@media (max-width: 1555px) {
+    #myNavbar {
+        display: none !important;
+    }
+    .navbar-toggle {
+        display: block;
+    }
 }
