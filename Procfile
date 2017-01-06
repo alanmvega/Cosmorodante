@@ -1,1 +1,1 @@
-web: java -Dserver.port=$PORT $JAVA_OPTS -jar build/libs/*.jar app.Application
+web: java -Dserver.port=$PORT $JAVA_OPTS -jar build/libs/cosmo-rodante-web-0.0.1.jar app.Application
