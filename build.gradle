@@ -14,11 +14,7 @@ apply plugin: 'org.springframework.boot'
 
 jar {
     baseName = 'cosmo-rodante-web'
-    version =  '0.0.1'
-}
-
-bootRepackage {
-    mainClass = 'main.app.Application'
+    version = '0.0.1'
 }
 
 repositories {
@@ -33,6 +29,13 @@ dependencies {
     testCompile('org.springframework.boot:spring-boot-starter-test')
 }
 
-task stage {
-    dependsOn build
+task copyToLib(type: Copy) {
+    into "$buildDir/lib"
+    from(configurations.compile)
 }
+
+task stage(
+        dependsOn: ['build', 'clean', 'copyToLib']
+)
+
+build.mustRunAfter clean
