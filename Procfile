@@ -1,1 +1,1 @@
-web: java -Dserver.port=$PORT -jar build/libs/cosmo-rodante-web-0.0.1.jar
+web: java -javaagent:newrelic/newrelic.jar -Dserver.port=$PORT $JAVA_OPTS -jar build/libs/cosmo-rodante-web-0.0.1.jar
