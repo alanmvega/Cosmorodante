@@ -12,5 +12,4 @@ public class HomeController {
         return new ModelAndView("views/home.html");
     }
 
-
 }
