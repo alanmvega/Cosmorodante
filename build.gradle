@@ -17,6 +17,10 @@ jar {
     version =  '0.0.1'
 }
 
+bootRepackage {
+    mainClass = 'app.Application'
+}
+
 repositories {
     mavenCentral()
 }
