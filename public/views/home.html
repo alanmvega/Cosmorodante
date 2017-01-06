@@ -8,41 +8,34 @@
     <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
     <link rel="stylesheet" href="../css/home.css">
     <script src="//ajax.googleapis.com/ajax/libs/angularjs/1.6.1/angular.min.js"></script>
-    <!--<script src="../js/home.js"></script>-->
+    <script src="../js/home.js"></script>
 </head>
-<body>
+<body ng-app="myApp" ng-controller="HomeController as homeCtrl">
     <nav class="navbar navbar-default header-nav">
         <div class="container -max-width">
             <div class="navbar-header">
-                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+                <button type="button" class="navbar-toggle" ng-init="navCollapsed = true" ng-click="navCollapsed = !navCollapsed">
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                 </button>
                 <a class="navbar-brand" href="/">Cosmo Rodante</a>
             </div>
-            <div class="collapse navbar-collapse" id="myNavbar">
+            <div class="collapse navbar-collapse nav-collapse navbar-responsive-collapse" id="myNavbar" collapse="navCollapsed">
                 <ul class="nav navbar-nav navbar-right">
-                    <li><a href="#">¿DÓNDE ESTAMOS?</a></li>
-                    <li><a href="#">¿QUIÉNES SOMOS?</a></li>
-                    <li><a href="#">SEMINARIOS</a></li>
-                    <li><a href="#">TALLERES</a></li>
-                    <li><a href="#">TERAPIAS</a></li>
-                    <li><a href="#">ESPECTÁCULOS</a></li>
-                    <li><a href="#">FOTOS</a></li>
-                    <li><a href="#">CONTACTO</a></li>
+                    <li ng-repeat="link in homeCtrl.navLinks"><a ng-href="{{link.ref}}">{{link.text}}</a></li>
                 </ul>
             </div>
         </div>
     </nav>
 
     <div class="container-fluid home-heading text-center">
-        <h1 class="margin">Cosmo Rodante</h1>
-        <img src="../images/14718839_404297099958215_2122501957124212158_n.jpg" class="img-responsive img-circle margin -inline" alt="Camioneta cosmo rodante" width="500" height="350">
+        <h1 class="-margin-bottom">Cosmo Rodante</h1>
+        <img src="../images/14718839_404297099958215_2122501957124212158_n.jpg" class="img-responsive img-circle -margin-bottom -inline" alt="Camioneta cosmo rodante" width="500" height="350">
     </div>
 
     <div class="container-fluid -dark text-center -spacing-top-bottom">
-        <h3 class="margin">¿Quiénes somos?</h3>
+        <h3 class="-margin-bottom">¿Quiénes somos?</h3>
         <p class="-medium-font-size">Somos Ana (Buenos Aires) y Gaspar (Entre Ríos) Empezamos a viajar desde Enero (2016) con el sueño de poder llevar lo que nos apasiona a donde vayamos, conocer gente, paisajes, culturas...</p>
         <p class="-medium-font-size">¡Lo Logramos!, y estamos felices de poder vivir de esta autogestión.</p>
     </div>

@@ -46,14 +46,14 @@ body {
 
 .-small-spacing-top-bottom {
     padding-top: 40px;
-    padding-bottom: 40px;
+    padding-bottom: 30px;
 }
 
 .-medium-spacing-right {
     padding-right: 50px;
 }
 
-.margin {
+.-margin-bottom {
     margin-bottom: 25px;
 }
 
