@@ -12,4 +12,9 @@ public class HomeController {
         return new ModelAndView("views/home.html");
     }
 
+    @RequestMapping(value = "/donde-estamos")
+    public ModelAndView whereWeAreView() {
+        return new ModelAndView("views/where.html");
+    }
+
 }
