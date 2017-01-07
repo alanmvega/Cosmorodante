@@ -11,3 +11,9 @@
 hs_err_pid*
 
 .idea/
+
+*.log
+.gradle/
+build/
+gradlew.bat
+newrelic/logs/
