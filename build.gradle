@@ -28,8 +28,11 @@ targetCompatibility = 1.8
 
 dependencies {
     compile("org.springframework.boot:spring-boot-starter-web")
-    testCompile('org.springframework.boot:spring-boot-starter-test')
+    compile("org.springframework:spring-context-support")
 	compile("com.newrelic.agent.java:newrelic-agent:3.12.1")
+    compile("org.springframework.boot:spring-boot-starter-freemarker:1.4.3.RELEASE")
+    compile("org.freemarker:freemarker:2.3.25-incubating")
+    testCompile('org.springframework.boot:spring-boot-starter-test')
 }
 
 task wrapper(type: Wrapper) {
