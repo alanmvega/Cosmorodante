@@ -13,9 +13,13 @@
     </div>
 
     <div class="container-fluid -dark text-center -spacing-top-bottom">
-        <h3 class="-margin-bottom">¿Quiénes somos?</h3>
         <p class="-medium-font-size">Somos Ana (Buenos Aires) y Gaspar (Entre Ríos) Empezamos a viajar desde Enero (2016) con el sueño de poder llevar lo que nos apasiona a donde vayamos, conocer gente, paisajes, culturas...</p>
         <p class="-medium-font-size">¡Lo Logramos!, y estamos felices de poder vivir de esta autogestión.</p>
+    </div>
+
+    <div class="container-fluid -white text-center -spacing-top-bottom">
+        <p class="-medium-font-size">¡Atención Amigos!</p>
+        <p class="-medium-font-size">Estamos en Entre Ríos hasta el 11 de diciembre. En Bs As desde el 12 de Diciembre hasta fin de año, y de ahí iremos a hacer temporada a Bariloche.</p>
     </div>
 
     <#include "common/footer.ftl"/>

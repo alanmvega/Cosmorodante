@@ -1,12 +1,12 @@
 {
   "navs": [
     {
-      "text": "¿DÓNDE ESTAMOS?",
-      "ref": "/donde-estamos"
-    },
-    {
       "text": "¿QUIÉNES SOMOS?",
       "ref": "/quienes-somos"
+    },
+    {
+      "text": "¿DÓNDE ESTAMOS?",
+      "ref": "/donde-estamos"
     },
     {
       "text": "SEMINARIOS",

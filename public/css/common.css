@@ -22,6 +22,15 @@ body {
     display:inline
 }
 
+.-float-right {
+    float: right;
+}
+
+.-white {
+    background-color: whitesmoke;
+    color: #555555;
+}
+
 .-dark {
     background-color: #474e5d;
     color: white;
@@ -32,14 +41,36 @@ body {
     color: white;
 }
 
+.-teal {
+    background-color: teal;
+    color: whitesmoke;
+}
+
+.-text-red {
+    color: red;
+}
+
+.-medium-spacing {
+    padding: 50px 25px;
+}
+
 .-spacing-top-bottom {
     padding-top: 70px;
     padding-bottom: 70px;
 }
 
+.-medium-spacing-top-bottom {
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
 .-small-spacing-top-bottom {
     padding-top: 40px;
     padding-bottom: 30px;
+}
+
+.-small-spacing-bottom {
+    padding-bottom: 20px;
 }
 
 .-medium-spacing-right {
@@ -68,5 +99,11 @@ body {
     }
     .navbar-toggle {
         display: block;
+    }
+}
+
+@media (max-width: 1023px) {
+    .-float-right {
+        float: none;
     }
 }
