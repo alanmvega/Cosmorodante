@@ -9,7 +9,7 @@
 
     <div class="container-fluid home-heading text-center">
         <h1 class="-margin-bottom">Cosmo Rodante</h1>
-        <img src="../images/logo_cosmo_rodante.png" class="img-responsive img-circle -margin-bottom -inline" alt="Camioneta cosmo rodante" width="350">
+        <img src="../images/logo_cosmo_rodante.jpg" class="img-responsive img-circle -margin-bottom -inline" alt="Camioneta cosmo rodante" width="350">
     </div>
 
     <div class="container-fluid -dark text-center -spacing-top-bottom">

@@ -17,7 +17,7 @@
                             <span>Ana</span>
                         </div>
                     </div>
-                    <img src="../images/ana.png" class="img-responsive img-circle" alt="Ana" width="350">
+                    <img src="../images/ana.jpg" class="img-responsive img-circle" alt="Ana" width="350" height="350">
                 </a>
             </div>
             <div class="col-xs-12 col-sm-6 portfolio-item">
@@ -27,7 +27,7 @@
                             <span>Gaspar</span>
                         </div>
                     </div>
-                    <img src="../images/gaspar.png" class="img-responsive img-circle" alt="Gaspar" width="350">
+                    <img src="../images/gaspar.jpg" class="img-responsive img-circle" alt="Gaspar" width="350" height="350">
                 </a>
             </div>
         </div>
