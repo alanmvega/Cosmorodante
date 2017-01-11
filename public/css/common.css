@@ -101,3 +101,9 @@ body {
         display: block;
     }
 }
+
+@media (min-width: 1556px) {
+    .collapse {
+        display: block;
+    }
+}
