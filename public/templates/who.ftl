@@ -9,7 +9,6 @@
 <body ng-app="myApp">
     <#include "common/nav.ftl"/>
 
-
     <#--MODALS-->
     <div class="modal fade" id="modalAna" role="dialog">
         <div class="modal-dialog modal-lg">

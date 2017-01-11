@@ -22,10 +22,6 @@ body {
     display:inline
 }
 
-.-float-right {
-    float: right;
-}
-
 .-white {
     background-color: whitesmoke;
     color: #555555;
@@ -98,16 +94,10 @@ body {
 }
 
 @media (max-width: 1555px) {
-    #myNavbar {
+    .navbar-responsive-collapse {
         display: none !important;
     }
     .navbar-toggle {
         display: block;
-    }
-}
-
-@media (max-width: 1023px) {
-    .-float-right {
-        float: none;
     }
 }
