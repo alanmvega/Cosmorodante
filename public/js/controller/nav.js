@@ -1,12 +1,7 @@
 var myApp = angular.module('myApp', []);
 
-myApp.controller("NavController", function ($scope, $http) {
+myApp.controller("NavController", function () {
     var navCtrl = this;
 
-    $http.get("../jsons/navs.json").then(function(response) {
-        navCtrl.navLinks = response.data.navs;
-    }, function (error) {
-        console.log("error: " + error);
-    });
 });
 

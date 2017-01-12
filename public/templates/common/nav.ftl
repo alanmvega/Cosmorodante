@@ -10,7 +10,11 @@
         </div>
         <div class="collapse nav-collapse" ng-class="{ 'navbar-collapse in': collapse ,'navbar-responsive-collapse': !collapse}">
             <ul class="nav navbar-nav navbar-right">
-                <li ng-repeat="link in navCtrl.navLinks"><a ng-href="{{link.ref}}">{{link.text}}</a></li>
+                <#list navs as link>
+                    <li>
+                        <a href="${link.ref}">${link.text}</a>
+                    </li>
+                </#list>
             </ul>
         </div>
     </div>
