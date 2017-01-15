@@ -11,7 +11,7 @@
         <div class="collapse nav-collapse" ng-class="{ 'navbar-collapse in': collapse ,'navbar-responsive-collapse': !collapse}">
             <ul class="nav navbar-nav navbar-right">
                 <#list navs as link>
-                    <li>
+                    <li class="nav-separator">
                         <a href="${link.ref}">${link.text}</a>
                     </li>
                 </#list>

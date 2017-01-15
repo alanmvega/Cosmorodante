@@ -3,12 +3,14 @@
 <head>
     <#include "common/components.ftl"/>
     <link rel="stylesheet" href="../css/who.css">
+    <#--TODO: open (and close) modal without using jquery-->
     <script src="//ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
     <script src="../js/bootstrap-modal.js"></script>
 </head>
 <body ng-app="myApp">
     <#include "common/nav.ftl"/>
 
+    <#--TODO: close modal on back (mobile)-->
     <#--MODALS-->
     <div class="modal fade" id="modalAna" role="dialog">
         <div class="modal-dialog modal-lg">
@@ -49,7 +51,6 @@
                     <h4 class="modal-title">Gaspar Fernandez (34) por Ana</h4>
                 </div>
                 <div class="modal-body">
-                    <p class="-medium-font-size"></p>
                     <p class="-medium-font-size">Gaspar desde chico ya era un personaje, según se comenta era muy bueno pero muy inquieto, se portaba mal, y quería llamar la atención, así que por suerte pudo encausar su energía y empezó a estudiar Artes Visuales y actuación junto a Francisco Zabala (Concordia), cuando termino el colegio se vino a Buenos Aires, ya tenía muy claro que quería ser actor, hizo el ingreso y logro entrar al I.U.N.A.  Instituto Nacional de Artes Dramático, ahí a demás de formarse en lo profesional, también hizo un grupo grande de amigos que hoy en día quiere mucho</p>
                     <p class="-medium-font-size">Después continuó su formación con Julio Chávez y Cristian Drut, fue ahí donde nos conocimos. Cada uno tenía su historia en ese momento, asique entre ensayos y escenas nos hicimos en principio muy amigos y después bueno…</p>
                     <p class="-medium-font-size">Antes de eso el ya había estudiado clown y comedia física entrenó con Julia Muzzio, también hizo golpes y caídas junto a Jorge Costa, técnicas de jacques lecoq y bufón con Daniel Casablanca, y se perfeccionó en la Escuela de Circo Criollo, acrobacia de piso, malabares, trapecio y danza aérea en arnés, participo de varios espectáculos, uno de ellos en “Fuerza Bruta”.</p>
@@ -82,7 +83,7 @@
                             <span>Ana</span>
                         </div>
                     </div>
-                    <img src="../images/ana.jpg" class="img-responsive img-circle" alt="Ana" width="350" height="350">
+                    <img src="../images/quienes-somos/ana.jpg" class="img-responsive img-circle" alt="Ana" width="350" height="350">
                 </a>
             </div>
             <div class="col-xs-12 col-sm-6 portfolio-item">
@@ -92,7 +93,7 @@
                             <span>Gaspar</span>
                         </div>
                     </div>
-                    <img src="../images/gaspar.jpg" class="img-responsive img-circle" alt="Gaspar" width="350" height="350">
+                    <img src="../images/quienes-somos/gaspar.jpg" class="img-responsive img-circle" alt="Gaspar" width="350" height="350">
                 </a>
             </div>
         </div>

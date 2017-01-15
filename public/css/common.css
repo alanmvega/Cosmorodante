@@ -18,6 +18,14 @@ body {
     color: #1abc9c !important;
 }
 
+.nav-separator {
+    border-left: 1px solid #EEE;
+}
+
+.nav-separator:first-child {
+    border-left: none;
+}
+
 .-inline {
     display:inline
 }
@@ -46,8 +54,24 @@ body {
     color: black;
 }
 
+.-text-white {
+    color: white;
+}
+
 .-text-red {
     color: red;
+}
+
+.-text-blue {
+    color: blue;
+}
+
+.-no-hover-underline:hover {
+    text-decoration: none;
+}
+
+.-no-hover-underline:focus {
+    text-decoration: none;
 }
 
 .-medium-spacing {
@@ -69,6 +93,11 @@ body {
     padding-bottom: 30px;
 }
 
+.-xs-spacing-top-bottom {
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
 .-small-spacing-bottom {
     padding-bottom: 20px;
 }
@@ -77,8 +106,24 @@ body {
     padding-right: 50px;
 }
 
+.-xs-spacing-right {
+    padding-right: 10px;
+}
+
+.-medium-spacing-left {
+    padding-left: 50px;
+}
+
 .-margin-bottom {
     margin-bottom: 25px;
+}
+
+.-xxl-font-size {
+    font-size: 25px;
+}
+
+.-xl-font-size {
+    font-size: 20px;
 }
 
 .-large-font-size {
@@ -97,7 +142,7 @@ body {
     width: 100%;
 }
 
-@media (max-width: 1555px) {
+@media (max-width: 1557px) {
     .navbar-responsive-collapse {
         display: none !important;
     }
@@ -106,7 +151,7 @@ body {
     }
 }
 
-@media (min-width: 1556px) {
+@media (min-width: 1558px) {
     .collapse {
         display: block;
     }
