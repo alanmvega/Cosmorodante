@@ -1,23 +1,28 @@
 package app;
 
-import org.springframework.boot.SpringApplication;
-import org.springframework.boot.autoconfigure.EnableAutoConfiguration;
-import org.springframework.boot.builder.SpringApplicationBuilder;
-import org.springframework.boot.web.support.SpringBootServletInitializer;
-import org.springframework.context.annotation.ComponentScan;
+import org.springframework.web.WebApplicationInitializer;
+import org.springframework.web.context.ContextLoaderListener;
+import org.springframework.web.context.support.AnnotationConfigWebApplicationContext;
+import org.springframework.web.servlet.DispatcherServlet;
 
-@EnableAutoConfiguration
-@ComponentScan("app")
-public class HelloApplication extends SpringBootServletInitializer {
+import javax.servlet.ServletContext;
+import javax.servlet.ServletException;
+import javax.servlet.ServletRegistration;
 
-    public static void main(String[] args) {
-        SpringApplication.run(HelloApplication.class, args);
-    }
+//@EnableAutoConfiguration
+public class HelloApplication implements WebApplicationInitializer {
 
     @Override
-    protected SpringApplicationBuilder configure(SpringApplicationBuilder application) {
-        return application.sources(HelloApplication.class);
-    }
+    public void onStartup(ServletContext servletContext) throws ServletException {
+        AnnotationConfigWebApplicationContext appCtx = new AnnotationConfigWebApplicationContext();
+        appCtx.register(AppConfig.class);
+        servletContext.addListener(new ContextLoaderListener(appCtx));
 
+        //WebConfig
+        AnnotationConfigWebApplicationContext webCtx = new AnnotationConfigWebApplicationContext();
+        webCtx.register(WebConfig.class);
+        ServletRegistration.Dynamic dispatcher = servletContext.addServlet("dispatcher", new DispatcherServlet(webCtx));
+        dispatcher.setLoadOnStartup(1);
+        dispatcher.addMapping("/");
+        }
 }
-

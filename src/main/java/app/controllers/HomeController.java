@@ -17,7 +17,7 @@ public class HomeController {
     public HomeController() {
         ObjectMapper mapper = new ObjectMapper();
         try {
-            navLinks = mapper.readValue(new File("public/jsons/navs.json"), NavLinks.class);
+            navLinks = mapper.readValue(new File("jsons/navs.json"), NavLinks.class);
         } catch (IOException e) {
             e.printStackTrace();
         }
