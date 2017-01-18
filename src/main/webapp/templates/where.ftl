@@ -2,7 +2,7 @@
 <html>
 <head>
     <#include "common/components.ftl"/>
-    <link rel="stylesheet" href="../css/where.css">
+    <link rel="stylesheet" href="static/css/where.css">
 </head>
 <body ng-app="myApp">
     <#include "common/nav.ftl"/>
@@ -11,10 +11,10 @@
         <h1 class="-margin-bottom">¿Dónde estamos?</h1>
         <div class="row">
             <div class="col-xs-12 col-sm-6 -small-spacing-bottom">
-                <img class="where-header-image pull-right img-rounded img-responsive" src="../images/donde-estamos/15878296_460781470976444_1794200629_o.jpg" alt="">
+                <img class="where-header-image pull-right img-rounded img-responsive" src="static/images/donde-estamos/15878296_460781470976444_1794200629_o.jpg" alt="">
             </div>
             <div class="col-xs-12 col-sm-6 -small-spacing-bottom">
-                <img class="where-header-image pull-left img-rounded img-responsive" src="../images/donde-estamos/15909166_460781560976435_434016955_o.jpg" alt="">
+                <img class="where-header-image pull-left img-rounded img-responsive" src="static/images/donde-estamos/15909166_460781560976435_434016955_o.jpg" alt="">
             </div>
         </div>
     </div>

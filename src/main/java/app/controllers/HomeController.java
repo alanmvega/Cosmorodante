@@ -6,7 +6,6 @@ import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.servlet.ModelAndView;
 
-import java.io.File;
 import java.io.IOException;
 
 @Controller
@@ -17,7 +16,7 @@ public class HomeController {
     public HomeController() {
         ObjectMapper mapper = new ObjectMapper();
         try {
-            navLinks = mapper.readValue(new File("jsons/navs.json"), NavLinks.class);
+            navLinks = mapper.readValue(NavLinks.class.getResourceAsStream("/jsons/navs.json"), NavLinks.class);
         } catch (IOException e) {
             e.printStackTrace();
         }

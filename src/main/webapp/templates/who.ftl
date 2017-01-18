@@ -2,10 +2,10 @@
 <html>
 <head>
     <#include "common/components.ftl"/>
-    <link rel="stylesheet" href="../css/who.css">
+    <link rel="stylesheet" href="static/css/who.css">
     <#--TODO: open (and close) modal without using jquery-->
     <script src="//ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
-    <script src="../js/bootstrap-modal.js"></script>
+    <script src="static/js/bootstrap-modal.js"></script>
 </head>
 <body ng-app="myApp">
     <#include "common/nav.ftl"/>
@@ -83,7 +83,7 @@
                             <span>Ana</span>
                         </div>
                     </div>
-                    <img src="../images/quienes-somos/ana.jpg" class="img-responsive img-circle" alt="Ana" width="350" height="350">
+                    <img src="static/images/quienes-somos/ana.jpg" class="img-responsive img-circle" alt="Ana" width="350" height="350">
                 </a>
             </div>
             <div class="col-xs-12 col-sm-6 portfolio-item">
@@ -93,7 +93,7 @@
                             <span>Gaspar</span>
                         </div>
                     </div>
-                    <img src="../images/quienes-somos/gaspar.jpg" class="img-responsive img-circle" alt="Gaspar" width="350" height="350">
+                    <img src="static/images/quienes-somos/gaspar.jpg" class="img-responsive img-circle" alt="Gaspar" width="350" height="350">
                 </a>
             </div>
         </div>
