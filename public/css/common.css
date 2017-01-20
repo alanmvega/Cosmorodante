@@ -50,6 +50,11 @@ body {
     color: whitesmoke;
 }
 
+.-bisque {
+    background-color: bisque;
+    color: darkred;
+}
+
 .-text-black {
     color: black;
 }

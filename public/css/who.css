@@ -41,13 +41,27 @@
 .portfolio-item .portfolio-link .caption .caption-content h4 {
     margin: 0;
 }
+.image-name {
+    display: none;
+    color: white;
+    font-size: 16px;
+}
 
+/*Tablet & Desktop*/
 @media (min-width: 768px) {
     .portfolio-item {
         margin: 0 0 30px;
     }
 }
 
+/*Mobile & Tablet*/
+@media (max-width: 1023px) {
+    .image-name {
+        display: block;
+    }
+}
+
+/*Mobile*/
 @media (max-width: 767px) {
     .portfolio-link.pull-right {
         float: none !important;

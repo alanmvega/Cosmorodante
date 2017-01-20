@@ -76,7 +76,7 @@
     <div class="container-fluid -teal -medium-spacing-top-bottom">
         <h1 class="text-center -margin-bottom">¿Quiénes somos?</h1>
         <div class="row">
-            <div class="col-xs-12 col-sm-6 portfolio-item -small-spacing-bottom">
+            <div class="col-xs-12 col-sm-6 portfolio-item">
                 <a class="portfolio-link pull-right" data-toggle="modal" data-target="#modalAna">
                     <div class="caption">
                         <div class="caption-content">
@@ -84,6 +84,9 @@
                         </div>
                     </div>
                     <img src="../images/quienes-somos/ana.jpg" class="img-responsive img-circle" alt="Ana" width="350" height="350">
+                    <div class="text-center image-name">
+                        <span>Ana</span>
+                    </div>
                 </a>
             </div>
             <div class="col-xs-12 col-sm-6 portfolio-item">
@@ -94,8 +97,14 @@
                         </div>
                     </div>
                     <img src="../images/quienes-somos/gaspar.jpg" class="img-responsive img-circle" alt="Gaspar" width="350" height="350">
+                    <div class="text-center image-name">
+                        <span>Gaspar</span>
+                    </div>
                 </a>
             </div>
+        </div>
+        <div class="text-center">
+            <span>¡Clickeanos para conocernos!</span>
         </div>
     </div>
 
