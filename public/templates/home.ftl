@@ -21,7 +21,7 @@
 
     <div class="container-fluid -white text-center -medium-spacing-top-bottom">
         <p class="-large-font-size">¡Atención Amigos!</p>
-        <p class="-large-font-size">Estamos en Entre Ríos hasta el 11 de diciembre. En Bs As desde el 12 de Diciembre hasta fin de año, y de ahí iremos a hacer temporada a Bariloche.</p>
+        <p class="-large-font-size">Estamos en Bariloche y vamos a recorrer todo el sur.</p>
     </div>
 
     <#include "common/footer.ftl"/>
