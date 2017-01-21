@@ -55,6 +55,11 @@ body {
     color: darkred;
 }
 
+.-cadet {
+    background-color: cadetblue;
+    color: cornsilk;
+}
+
 .-text-black {
     color: black;
 }
@@ -145,6 +150,23 @@ body {
 
 .-max-width {
     width: 100%;
+}
+
+.header-image {
+    max-height: 500px;
+}
+
+.image-at-left-with-text {
+    float: left;
+    margin-right: 20px;
+    margin-top: 6px;
+}
+
+/*MOBILE*/
+@media (max-width: 767px) {
+    .image-at-left-with-text {
+        margin-bottom: 10px;
+    }
 }
 
 @media (max-width: 1557px) {

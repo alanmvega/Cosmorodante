@@ -1,0 +1,26 @@
+.max-width-img-actoral-corporal {
+    max-height: 280px;
+}
+
+.max-width-img-ninios {
+    max-height: 122px;
+}
+
+.max-width-intensivo {
+    max-height: 153px;
+}
+
+/*MOBILE*/
+@media (max-width: 767px) {
+    .max-width-img-actoral-corporal{
+        max-height: 100%;
+    }
+
+    .max-width-img-ninios{
+        max-height: 100%;
+    }
+
+    .max-width-intensivo {
+        max-height: 100%;
+    }
+}
