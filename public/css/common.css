@@ -124,6 +124,10 @@ body {
     padding-left: 50px;
 }
 
+.-medium-margin-bottom {
+    margin-bottom: 35px;
+}
+
 .-margin-bottom {
     margin-bottom: 25px;
 }
