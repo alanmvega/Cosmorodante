@@ -60,6 +60,26 @@ body {
     color: cornsilk;
 }
 
+.-dark-gray {
+    background-color: darkgray;
+    color: floralwhite;
+}
+
+.-beige {
+    background-color: beige;
+    color: brown;
+}
+
+.-dark-sea-green {
+    background-color: darkseagreen;
+    color: cornsilk;
+}
+
+.-dim-grey {
+    background-color: dimgrey;
+    color: ghostwhite;
+}
+
 .-text-black {
     color: black;
 }

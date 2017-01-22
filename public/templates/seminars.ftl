@@ -14,6 +14,7 @@
         </div>
     </div>
 
+    <#--TODO: Make images with image-at-left-with-text class when clicked open on a modal or something (to see them bigger)-->
     <div class="container-fluid -dark -medium-spacing">
         <h3 class="-small-spacing-bottom text-center">SEMINARIO ACTORAL CORPORAL MEDITATIVO</h3>
         <img class="image-at-left-with-text max-width-img-actoral-corporal img-responsive" src="../images/seminarios/img-actoral-corporal-meditativo.jpg">
