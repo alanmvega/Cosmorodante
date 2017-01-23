@@ -9,7 +9,7 @@
     <div class="container-fluid text-center -teal -medium-spacing-top-bottom">
         <h1 class="-margin-bottom">Terapias Individuales</h1>
         <div>
-            <img class="header-image img-responsive center-block" src="../images/terapias/header-image.jpg">
+            <img class="header-image img-responsive center-block" src="../images/terapias/header-image.jpg" alt="terapias">
         </div>
     </div>
 

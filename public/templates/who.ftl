@@ -3,9 +3,6 @@
 <head>
     <#include "common/components.ftl"/>
     <link rel="stylesheet" href="../css/who.css">
-    <#--TODO: open (and close) modal without using jquery-->
-    <script src="//ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
-    <script src="../js/bootstrap-modal.js"></script>
 </head>
 <body ng-app="myApp">
     <#include "common/nav.ftl"/>
@@ -127,5 +124,9 @@
     </div>
 
     <#include "common/footer.ftl"/>
+
+    <#--TODO: open (and close) modal without using jquery-->
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <script src="../js/bootstrap-modal.js"></script>
 </body>
 </html>
