@@ -186,9 +186,21 @@ body {
     margin-top: 6px;
 }
 
+.vertical-center-img-on-row {
+    display: flex;
+    align-items: center;
+}
+
 /*MOBILE*/
 @media (max-width: 767px) {
     .image-at-left-with-text {
+        margin-bottom: 10px;
+    }
+    .vertical-center-img-on-row {
+        display: block;
+        align-items: initial;
+    }
+    .mobile-margin-bottom {
         margin-bottom: 10px;
     }
 }

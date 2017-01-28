@@ -9,7 +9,7 @@
     <div class="container-fluid text-center -teal -medium-spacing-top-bottom">
         <h1 class="-margin-bottom">Talleres para niños y adultos</h1>
         <div>
-            <img class="header-image img-responsive img-rounded center-block" src="../images/talleres/talleres-ninios.jpg" alt="">
+            <img class="header-image img-responsive img-rounded center-block" src="../images/talleres/header-image.jpg" alt="">
         </div>
     </div>
 
@@ -50,24 +50,31 @@
     <div class="container-fluid -white -medium-spacing">
         <h3 class="-small-spacing-bottom text-center"><b>Niños:</b></h3>
 
-        <h4 class="-margin-bottom">TALLER DE TEATRO Y CIRCO PARA NIÑOS</h4>
-        <p class="-medium-font-size -margin-bottom">Abordamos el teatro para niños como un espacio de juego, orientado a la creatividad. Un lugar que conecte a los chicos con sus potencialidades expresivas, explorando: Voz, Cuerpo y Gesto.</p>
-        <p class="-medium-font-size">Es una actividad grupal, por lo cual buscamos el desarrollo de la escucha activa y participativa, la tolerancia y el respeto por sus propios tiempos y el de los demás.</p>
-        <p class="-medium-font-size -margin-bottom">El respeto y cuidado de sus cuerpos. Y por sobretodo acompañarlos en el viaje de la educación artística, creativa y constructiva, hacedora de seres más nobles y sensibles.</p>
-        <ul class="-medium-font-size -medium-margin-bottom">
-            <li>Juegos teatrales</li>
-            <li>Improvisaciones</li>
-            <li>Exploración de roles y personajes.</li>
-            <li>Creaciones colectivas a partir de de improvisaciones grupales</li>
-            <li>Expresión Corporal</li>
-            <li>Técnica Vocal</li>
-        </ul>
+        <div class="row">
+            <div class="col-xs-12 col-sm-8">
+                <h4 class="-margin-bottom">TALLER DE TEATRO Y CIRCO PARA NIÑOS</h4>
+                <p class="-medium-font-size -margin-bottom">Abordamos el teatro para niños como un espacio de juego, orientado a la creatividad. Un lugar que conecte a los chicos con sus potencialidades expresivas, explorando: Voz, Cuerpo y Gesto.</p>
+                <p class="-medium-font-size">Es una actividad grupal, por lo cual buscamos el desarrollo de la escucha activa y participativa, la tolerancia y el respeto por sus propios tiempos y el de los demás.</p>
+                <p class="-medium-font-size -margin-bottom">El respeto y cuidado de sus cuerpos. Y por sobretodo acompañarlos en el viaje de la educación artística, creativa y constructiva, hacedora de seres más nobles y sensibles.</p>
+                <ul class="-medium-font-size -medium-margin-bottom">
+                    <li>Juegos teatrales</li>
+                    <li>Improvisaciones</li>
+                    <li>Exploración de roles y personajes.</li>
+                    <li>Creaciones colectivas a partir de de improvisaciones grupales</li>
+                    <li>Expresión Corporal</li>
+                    <li>Técnica Vocal</li>
+                </ul>
 
-        <h4 class="-margin-bottom">TALLER DE ARTETERAPIA PARA NIÑOS</h4>
-        <p class="-medium-font-size">Pensado para cualquier niño.</p>
-        <p class="-medium-font-size -margin-bottom">En este encuentro utilizaremos distintas disciplinas artísticas, tales como plástica, música, teatro, escritura, danza, títeres, máscaras, etc. ... para lograr la conexión con partes profundas de cada uno, conflictivas, tales como debilidades, traumas, temores, bloqueos, como con potenciales sin desarrollar, nuestros dones, nuevos estados de conciencia, nuevas actitudes, y todo se logra desde un lugar muy armonioso y lúdico.</p>
+                <h4 class="-margin-bottom">TALLER DE ARTETERAPIA PARA NIÑOS</h4>
+                <p class="-medium-font-size">Pensado para cualquier niño.</p>
+                <p class="-medium-font-size -margin-bottom">En este encuentro utilizaremos distintas disciplinas artísticas, tales como plástica, música, teatro, escritura, danza, títeres, máscaras, etc. ... para lograr la conexión con partes profundas de cada uno, conflictivas, tales como debilidades, traumas, temores, bloqueos, como con potenciales sin desarrollar, nuestros dones, nuevos estados de conciencia, nuevas actitudes, y todo se logra desde un lugar muy armonioso y lúdico.</p>
 
-        <h4>YOGA PARA NIÑOS</h4>
+                <h4>YOGA PARA NIÑOS</h4>
+            </div>
+            <div class="col-xs-12 col-sm-4">
+                <img class="img-responsive" src="../images/talleres/talleres-ninios.jpg">
+            </div>
+        </div>
     </div>
 
     <#include "common/footer.ftl"/>

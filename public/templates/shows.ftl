@@ -34,7 +34,7 @@
         </div>
     </div>
 
-    <div class="container-fluid -white -medium-spacing">
+    <div class="container-fluid -bisque -medium-spacing">
         <h3 class="-small-spacing-bottom text-center"><b>Para Adultos:</b></h3>
 
         <div class="row">
@@ -63,6 +63,21 @@
             </div>
             <div class="col-xs-12 col-sm-5 col-md-4 col-lg-2">
                 <img class="img-responsive" src="../images/espectaculos/adultos.jpg">
+            </div>
+        </div>
+
+    </div>
+
+    <div class="container-fluid -white -medium-spacing">
+        <div class="row vertical-center-img-on-row">
+            <div class="col-xs-12 col-sm-3 mobile-margin-bottom">
+                <img class="img-responsive" src="../images/espectaculos/final1.jpg">
+            </div>
+            <div class="col-xs-12 col-sm-3 mobile-margin-bottom">
+                <img class="img-responsive" src="../images/espectaculos/final2.jpg">
+            </div>
+            <div class="col-xs-12 col-sm-6">
+                <img class="img-responsive" src="../images/espectaculos/final3.jpg">
             </div>
         </div>
     </div>

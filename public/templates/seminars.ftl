@@ -44,6 +44,7 @@
 
     <div class="container-fluid -white -medium-spacing">
         <h3 class="-small-spacing-bottom text-center">SEMINARIO DE MEDITACION</h3>
+        <img class="image-at-left-with-text max-width-img-meditacion img-responsive" src="../images/seminarios/img-meditacion.jpg">
         <p class="-medium-font-size">Seminario pensado para toda persona que busque empezar a conectarse, escucharse, despertarse, y estar presente en el aquí y ahora. no hace falta experiencia previa.</p>
         <p class="-medium-font-size -margin-bottom">Al incorporar la meditación a nuestra vida cotidiana, inmediatamente se sienten los cambios y beneficios que esta provoca, La idea de este encuentro es dar a conocer diferentes técnicas (para que cada persona pueda pasar por todas o varias técnicas y ver cual le resuena mas para seguir practicándola) y comprobar lo simples y gratificantes que pueden ser.</p>
         <p class="-medium-font-size -margin-bottom">Meditaciones guiadas:</p>
