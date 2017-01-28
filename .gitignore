@@ -17,3 +17,4 @@ hs_err_pid*
 build/
 gradlew.bat
 newrelic/logs/
+/META-INF/
