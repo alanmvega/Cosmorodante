@@ -19,6 +19,22 @@
         </div>
         <div class="row -small-spacing-bottom">
             <div class="col-xs-12 col-sm-3 col-md-2">
+                <span class="-xs-spacing-right"><i class="fa fa-instagram"></i> Instagram Ana:</span>
+            </div>
+            <div class="col-xs-12 col-sm-9 col-md-10">
+                <a target="_blank" href="http://www.instagram.com/ana.cosmorodante/" class="-no-hover-underline">@ana.cosmorodante</a>
+            </div>
+        </div>
+        <div class="row -small-spacing-bottom">
+            <div class="col-xs-12 col-sm-3 col-md-2">
+                <span class="-xs-spacing-right"><i class="fa fa-instagram"></i> Instagram Gaspar:</span>
+            </div>
+            <div class="col-xs-12 col-sm-9 col-md-10">
+                <a target="_blank" href="http://www.instagram.com/gaspar.cosmorodante/" class="-no-hover-underline">@gaspar.cosmorodante</a>
+            </div>
+        </div>
+        <div class="row -small-spacing-bottom">
+            <div class="col-xs-12 col-sm-3 col-md-2">
                 <span><i class="fa fa-envelope"></i> Mail:</span>
             </div>
             <div class="col-xs-12 col-sm-9 col-md-10">
