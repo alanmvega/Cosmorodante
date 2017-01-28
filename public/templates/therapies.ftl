@@ -43,22 +43,22 @@
 
     <div class="container-fluid -dark-gray -medium-spacing">
         <h3 class="-small-spacing-bottom text-center">REIKI</h3>
-        <p class="-medium-font-size">Sanación por medio de imposición de manos.</p>
+        <div class="row">
+            <div class="col-xs-12 col-sm-6 col-md-5 col-lg-4">
+                <p class="-medium-font-size">Sanación por medio de imposición de manos.</p>
+            </div>
+            <div class="col-xs-12 col-sm-6 col-md-4">
+                <img class="img-responsive" src="../images/terapias/reiki1.jpg">
+            </div>
+        </div>
     </div>
 
     <div class="container-fluid -beige -medium-spacing">
         <h3 class="-small-spacing-bottom text-center">MASAJES CON CUENCOS TIBETANOS</h3>
-        <div class="row">
-            <div class="col-xs-12 col-sm-7 col-md-9 col-lg-10">
-                <p class="-medium-font-size -margin-bottom">Sanación sonido e intención.</p>
-                <p class="-medium-font-size">Nuestro cuerpo esta en constante vibración, que cuando estamos preocupados, enfermos, tristes…se va modificando y corriéndose de su estado natural de armonía.</p>
-                <p class="-medium-font-size">Los cuencos, que tienen la vibración perfecta, contagian la vibración de nuestro cuerpo, devolviéndole una frecuencia optima y sana.</p>
-                <p class="-medium-font-size">Actúa tanto a nivel físico, emocional y espiritual</p>
-            </div>
-            <div class="col-xs-12 col-sm-5 col-md-3 col-lg-2">
-                <img class="img-responsive" src="../images/terapias/cuencos1.jpg">
-            </div>
-        </div>
+        <p class="-medium-font-size -margin-bottom">Sanación sonido e intención.</p>
+        <p class="-medium-font-size">Nuestro cuerpo esta en constante vibración, que cuando estamos preocupados, enfermos, tristes…se va modificando y corriéndose de su estado natural de armonía.</p>
+        <p class="-medium-font-size">Los cuencos, que tienen la vibración perfecta, contagian la vibración de nuestro cuerpo, devolviéndole una frecuencia optima y sana.</p>
+        <p class="-medium-font-size">Actúa tanto a nivel físico, emocional y espiritual</p>
     </div>
 
     <div class="container-fluid -dark-sea-green -medium-spacing">

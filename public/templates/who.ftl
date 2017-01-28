@@ -81,10 +81,10 @@
                         </div>
                     </div>
                     <img src="../images/quienes-somos/ana.jpg" class="img-responsive img-circle" alt="Ana" width="350" height="350">
-                    <div class="text-center image-name">
-                        <span>Ana</span>
-                    </div>
                 </a>
+                <div class="text-center image-name">
+                    <span>Ana</span>
+                </div>
             </div>
             <div class="col-xs-12 col-sm-6 portfolio-item">
                 <a class="portfolio-link pull-left" data-toggle="modal" data-target="#modalGaspar">
@@ -94,10 +94,10 @@
                         </div>
                     </div>
                     <img src="../images/quienes-somos/gaspar.jpg" class="img-responsive img-circle" alt="Gaspar" width="350" height="350">
-                    <div class="text-center image-name">
-                        <span>Gaspar</span>
-                    </div>
                 </a>
+                <div class="text-center image-name">
+                    <span>Gaspar</span>
+                </div>
             </div>
         </div>
         <div class="text-center">
