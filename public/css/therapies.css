@@ -1,0 +1,6 @@
+.therapies-background {
+    text-shadow: 1px 1px black;
+    color: white;
+    background: teal url(../../images/terapias/fondo.jpg);
+    background-size: cover;
+}

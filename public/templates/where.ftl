@@ -2,12 +2,13 @@
 <html>
 <head>
     <#include "common/components.ftl"/>
+    <link rel="stylesheet" type="text/css" href="../css/where.css"/>
 </head>
 <body ng-app="myApp">
     <#include "common/nav.ftl"/>
 
-    <div class="container-fluid text-center -teal -medium-spacing-top-bottom">
-        <h1 class="-margin-bottom">¿Dónde estamos?</h1>
+    <div class="container-fluid text-center where-background -medium-spacing-top-bottom">
+        <h1 class="color-heading-where -margin-bottom">¿Dónde estamos?</h1>
         <div class="row">
             <div class="col-xs-12 col-sm-6 -small-spacing-bottom">
                 <img class="header-image pull-right img-rounded img-responsive" src="../images/donde-estamos/15878296_460781470976444_1794200629_o.jpg" alt="Ana & Gaspar 1">

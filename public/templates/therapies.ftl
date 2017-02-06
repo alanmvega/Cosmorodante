@@ -1,12 +1,13 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <#include "common/components.ftl"/>
+    <link rel="stylesheet" type="text/css" href="../css/therapies.css"/>
+<#include "common/components.ftl"/>
 </head>
 <body ng-app="myApp">
     <#include "common/nav.ftl"/>
 
-    <div class="container-fluid text-center -teal -medium-spacing-top-bottom">
+    <div class="container-fluid text-center therapies-background -medium-spacing-top-bottom">
         <h1 class="-margin-bottom">Terapias Individuales</h1>
         <div>
             <img class="header-image img-responsive center-block" src="../images/terapias/header-image.jpg" alt="terapias">

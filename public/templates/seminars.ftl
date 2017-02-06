@@ -7,7 +7,7 @@
 <body ng-app="myApp">
     <#include "common/nav.ftl"/>
 
-    <div class="container-fluid text-center -teal -medium-spacing-top-bottom">
+    <div class="container-fluid text-center semianars-background -medium-spacing-top-bottom">
         <h1 class="-margin-bottom">Seminarios</h1>
         <div>
             <img class="header-image img-responsive img-rounded center-block" src="../images/seminarios/header-image.jpg" alt="seminario header">

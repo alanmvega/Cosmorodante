@@ -1,13 +1,13 @@
 <!DOCTYPE html>
-<html xmlns="http://www.w3.org/1999/html" xmlns="http://www.w3.org/1999/html" xmlns="http://www.w3.org/1999/html"
-      xmlns="http://www.w3.org/1999/html">
+<html>
 <head>
     <#include "common/components.ftl"/>
+    <link rel="stylesheet" href="../css/shows.css">
 </head>
 <body ng-app="myApp">
     <#include "common/nav.ftl"/>
 
-    <div class="container-fluid text-center -teal -medium-spacing-top-bottom">
+    <div class="container-fluid text-center shows-background -medium-spacing-top-bottom">
         <h1 class="-margin-bottom">Obras y espectáculos</h1>
         <div>
             <img class="header-image img-responsive img-rounded center-block" src="../images/espectaculos/header.jpg" alt="">

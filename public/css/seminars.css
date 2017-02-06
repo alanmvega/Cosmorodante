@@ -1,3 +1,10 @@
+.semianars-background {
+    text-shadow: 1px 1px black;
+    color: white;
+    background: teal url(../../images/seminarios/fondo.jpg);
+    background-size: cover;
+}
+
 .max-width-img-actoral-corporal {
     max-height: 280px;
 }

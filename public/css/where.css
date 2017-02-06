@@ -1,0 +1,16 @@
+.where-background {
+    background: teal url(../../images/donde-estamos/fondo.jpg);
+}
+
+.color-heading-where {
+    background-color: rgba(40, 96, 144, 0.63);
+    text-shadow: 1px 1px black;
+    width: 333px;
+    margin: 20px auto;
+}
+
+@media (max-width: 320px) {
+    .color-heading-where {
+        width: 191px;
+    }
+}

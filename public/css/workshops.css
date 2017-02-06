@@ -1,0 +1,17 @@
+.workshops-background {
+    background: teal url(../../images/talleres/fondo.jpg);
+    background-size: cover;
+}
+
+.color-heading-workshop {
+    background-color: rgba(40, 96, 144, 0.63);
+    text-shadow: 1px 1px black;
+    width: 525px;
+    margin: 20px auto;
+}
+
+@media (max-width: 320px) {
+    .color-heading-workshop {
+        width: 290px;
+    }
+}

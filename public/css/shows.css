@@ -1,0 +1,8 @@
+.shows-background {
+    text-shadow: 1px 1px black;
+    color: white;
+    background: teal url(../../images/espectaculos/fondo.jpg);
+    background-size: cover;
+    background-position-y: 26%;
+    background-position-x: 54%;
+}

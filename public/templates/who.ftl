@@ -70,7 +70,7 @@
     </div>
     <#--END MODALS-->
 
-    <div class="container-fluid -teal -medium-spacing-top-bottom">
+    <div class="container-fluid who-background -medium-spacing-top-bottom">
         <h1 class="text-center -margin-bottom">¿Quiénes somos?</h1>
         <div class="row">
             <div class="col-xs-12 col-sm-6 portfolio-item">

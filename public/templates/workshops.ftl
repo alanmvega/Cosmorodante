@@ -2,12 +2,13 @@
 <html>
 <head>
     <#include "common/components.ftl"/>
+    <link rel="stylesheet" type="text/css" href="../css/workshops.css"/>
 </head>
 <body ng-app="myApp">
     <#include "common/nav.ftl"/>
 
-    <div class="container-fluid text-center -teal -medium-spacing-top-bottom">
-        <h1 class="-margin-bottom">Talleres para niños y adultos</h1>
+    <div class="container-fluid text-center workshops-background -medium-spacing-top-bottom">
+        <h1 class="color-heading-workshop -margin-bottom">Talleres para niños y adultos</h1>
         <div>
             <img class="header-image img-responsive img-rounded center-block" src="../images/talleres/header-image.jpg" alt="">
         </div>
