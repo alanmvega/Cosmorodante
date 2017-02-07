@@ -4,3 +4,29 @@
     background: teal url(../../images/terapias/fondo.jpg);
     background-size: cover;
 }
+
+.therapies-link-to-other {
+    background-color: rgba(63, 144, 83, 0.63);
+    text-shadow: 1px 1px black;
+    width: 575px;
+    margin: 20px auto 0;
+}
+
+.therapies-link-to-other >a {
+    color: lightblue;
+}
+
+.therapies-link-to-other >a:hover {
+    color: #84acb9;
+
+}
+
+.therapies-link-to-other >a:active {
+    color: #84acb9;
+}
+
+@media (max-width: 767px) {
+    .therapies-link-to-other {
+        width: 315px;
+    }
+}

@@ -1,8 +1,8 @@
 <!DOCTYPE html>
 <html>
 <head>
+    <#include "common/components.ftl"/>
     <link rel="stylesheet" type="text/css" href="../css/therapies.css"/>
-<#include "common/components.ftl"/>
 </head>
 <body ng-app="myApp">
     <#include "common/nav.ftl"/>
@@ -12,6 +12,7 @@
         <div>
             <img class="header-image img-responsive center-block" src="../images/terapias/header-image.jpg" alt="terapias">
         </div>
+        <h3 class="therapies-link-to-other">Conocé más en: <a class="-no-hover-underline" target="_blank" href="//ana-manterola.webnode.com/">ana-manterola.webnode.com</a></h3>
     </div>
 
     <div class="container-fluid -dark -medium-spacing">

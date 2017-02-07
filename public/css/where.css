@@ -9,7 +9,7 @@
     margin: 20px auto;
 }
 
-@media (max-width: 320px) {
+@media (max-width: 767px) {
     .color-heading-where {
         width: 191px;
     }

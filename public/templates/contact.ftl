@@ -43,6 +43,14 @@
         </div>
         <div class="row -small-spacing-bottom">
             <div class="col-xs-12 col-sm-5 col-md-4 col-lg-3">
+                <span><i class="fa fa-external-link"></i> Terapias de sanación:</span>
+            </div>
+            <div class="col-xs-12 col-sm-7 col-md-8 col-lg-9">
+                <a target="_blank" href="//ana-manterola.webnode.com/" class="-no-hover-underline">http://ana-manterola.webnode.com</a>
+            </div>
+        </div>
+        <div class="row -small-spacing-bottom">
+            <div class="col-xs-12 col-sm-5 col-md-4 col-lg-3">
                 <span class="-xs-spacing-right"><i class="fa fa-whatsapp"></i> WhatsApp:</span>
             </div>
             <div class="col-xs-12 col-sm-7 col-md-8 col-lg-9">
