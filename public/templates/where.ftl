@@ -9,14 +9,7 @@
 
     <div class="container-fluid text-center where-background -medium-spacing-top-bottom">
         <h1 class="color-heading-where -margin-bottom">¿Dónde estamos?</h1>
-        <div class="row">
-            <div class="col-xs-12 col-sm-6 -small-spacing-bottom">
-                <img class="header-image pull-right img-rounded img-responsive" src="../images/donde-estamos/15878296_460781470976444_1794200629_o.jpg" alt="Ana & Gaspar 1">
-            </div>
-            <div class="col-xs-12 col-sm-6 -small-spacing-bottom">
-                <img class="header-image pull-left img-rounded img-responsive" src="../images/donde-estamos/15909166_460781560976435_434016955_o.jpg" alt="Ana & Gaspar 2">
-            </div>
-        </div>
+        <img class="header-image center-block img-responsive" src="../images/donde-estamos/header-image.jpg" alt="Ana & Gaspar 1">
     </div>
 
     <div class="container-fluid -dark -medium-spacing">
@@ -33,7 +26,7 @@
 
     <div class="container-fluid -white -medium-spacing">
         <p class="-medium-font-size -margin-bottom">De ahí ya pasamos para Córdoba, Dean Funes nos recibió con los brazos abiertos, y seguimos nuestro recorrido por San Marco Sierra, Capilla del monte, Los Cocos, La Cumbre, La Falta, San Esteban, Cosquin, y Devoto y San Francisco. Guimos Viaje hacia Entre Ríos, pasamos por Viale, Villa Eliza, Colon, San José, Concordia y Chajari, Volvimos a Buenos Aires a pasar las fiestas, y renovarnos para arrancar de nuevo, esta vez nuestro destino es el Sur</p>
-        <p class="-medium-font-size -margin-bottom">Hasta ahora trabajamos con cultura y con escuelas en cada lugar que fuimos, podes ver fotos en facebook: <a class="-no-hover-underline" target="_blank" href="http://www.facebook.com/C0smorodante/">Cosmo Rodante</a></p>
+        <p class="-medium-font-size -margin-bottom">Hasta ahora trabajamos con cultura y con escuelas en cada lugar que fuimos, podes ver fotos en facebook: <a class="-no-hover-underline" target="_blank" href="//www.facebook.com/profile.php?id=100011337854776">Cosmo Rodante</a></p>
         <p class="-medium-font-size">¡Si nos querés llevar a tu Ciudad, a tu evento, a tu escuela, a tu cumpleaños, comunicate con nosotros!!!</p>
     </div>
 
