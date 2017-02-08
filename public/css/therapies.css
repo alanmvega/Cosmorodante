@@ -27,6 +27,7 @@
 
 @media (max-width: 767px) {
     .therapies-link-to-other {
-        width: 315px;
+        width: 289px;
+        font-size: 22px;
     }
 }
