@@ -2,7 +2,6 @@
 <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=0"/>
 
 <link rel="icon" type="image/x-icon" href="../../icon.ico">
-<title>Cosmo Rodante</title>
 
 <link rel="stylesheet" href="//fonts.googleapis.com/css?family=Montserrat">
 <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">

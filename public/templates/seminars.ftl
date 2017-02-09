@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
+    <title>Cosmo Rodante - Seminarios</title>
     <#include "common/components.ftl"/>
     <link rel="stylesheet" href="../css/seminars.css">
 </head>

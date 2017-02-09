@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
+    <title>Cosmo Rodante - Terapias</title>
     <#include "common/components.ftl"/>
     <link rel="stylesheet" type="text/css" href="../css/therapies.css"/>
 </head>

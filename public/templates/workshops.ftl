@@ -1,10 +1,12 @@
 <!DOCTYPE html>
 <html>
 <head>
+    <title>Cosmo Rodante - Talleres</title>
     <#include "common/components.ftl"/>
     <link rel="stylesheet" type="text/css" href="../css/workshops.css"/>
 </head>
 <body ng-app="myApp">
+
     <#include "common/nav.ftl"/>
 
     <div class="container-fluid text-center workshops-background -medium-spacing-top-bottom">

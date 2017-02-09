@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
+    <title>Cosmo Rodante - Contacto</title>
     <#include "common/components.ftl"/>
     <link rel="stylesheet" type="text/css" href="../css/contact.css"/>
 </head>

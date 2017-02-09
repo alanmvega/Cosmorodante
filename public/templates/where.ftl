@@ -1,6 +1,8 @@
 <!DOCTYPE html>
 <html>
 <head>
+    <title>Cosmo Rodante - ¿Dónde estamos?</title>
+
     <#include "common/components.ftl"/>
     <link rel="stylesheet" type="text/css" href="../css/where.css"/>
 </head>

@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
+    <title>Cosmo Rodante - ¿Quiénes somos?</title>
     <#include "common/components.ftl"/>
     <link rel="stylesheet" href="../css/who.css">
 </head>

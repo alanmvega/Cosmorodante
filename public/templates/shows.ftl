@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
+    <title>Cosmo Rodante - Obras y espectáculos</title>
     <#include "common/components.ftl"/>
     <link rel="stylesheet" href="../css/shows.css">
 </head>

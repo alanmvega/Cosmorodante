@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
+    <title>Cosmo Rodante - Fotos</title>
     <#include "common/components.ftl"/>
 </head>
 <body ng-app="myApp">
