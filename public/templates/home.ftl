@@ -12,7 +12,7 @@
         <#--<h1 class="-margin-bottom">Cosmo Rodante</h1>-->
         <#--<img src="../images/home/logo_cosmo_rodante.jpg" class="img-responsive img-circle -margin-bottom -inline" alt="Camioneta cosmo rodante" width="350">-->
         <#--Color fondo: #8a9c9e-->
-        <img src="../images/home/16145291_469935016727756_1953681933_o.jpg" class="img-responsive" alt="Cosmo Rodante">
+        <img src="../images/home/17349099_511090495945541_1819730306_o.jpg" class="img-responsive" alt="Cosmo Rodante">
     </div>
 
     <div class="container-fluid -dark text-center -medium-spacing-top-bottom">
@@ -22,7 +22,7 @@
 
     <div class="container-fluid -white text-center -medium-spacing-top-bottom">
         <p class="-large-font-size">¡Atención Amigos!</p>
-        <p class="-large-font-size">Estamos en Bariloche y vamos a recorrer todo el sur.</p>
+        <p class="-large-font-size">¡Estamos en Bariloche!</p>
     </div>
 
     <#include "common/footer.ftl"/>

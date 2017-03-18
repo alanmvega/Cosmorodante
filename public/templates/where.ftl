@@ -12,6 +12,7 @@
     <div class="container-fluid text-center where-background -medium-spacing-top-bottom">
         <h1 class="color-heading-where -margin-bottom">¿Dónde estamos?</h1>
         <img class="header-image center-block img-responsive" src="../images/donde-estamos/header-image.jpg" alt="Ana & Gaspar 1">
+        <h3 class="under-heading-where">¡Actualmente estamos viviendo en Bariloche!</h3>
     </div>
 
     <div class="container-fluid -dark -medium-spacing">
